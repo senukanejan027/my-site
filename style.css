@@ -154,6 +154,7 @@ ul {
 .primary-btn {
   background: #38bdf8;
   color: #0f172a;
+  border: none;
 }
 
 .primary-btn:hover {
@@ -327,5 +328,11 @@ object-position:top;
   .image-wrapper {
     width: 260px;
     height: 260px;
+  }
+}
+
+@media (max-width:768px){
+  .hero-image{
+    justify-content: center;
   }
 }
