@@ -328,11 +328,6 @@ object-position:top;
   .image-wrapper {
     width: 260px;
     height: 260px;
-  }
-}
-
-@media (max-width:768px){
-  .hero-image{
-    justify-content: center;
+    margin:40px auto 0 auto;
   }
 }
